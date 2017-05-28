@@ -1,0 +1,53 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+  height:600px;
+ width: 950px;
+ background-color: silver;
+ margin: 0px auto;
+}
+#header{
+ height: 150px;
+ margin-left: 20px;
+ margin-right: 20px;
+ margin-top:10px;
+ margin-bottom: 10px;
+ background-color: green;
+}
+#navigation{
+ height: 300px;
+ width: 200px;
+ margin-left: 20px;
+ float: left;
+ /*if float:left is commented out and it works only with display:inline-block????
+ main_content with float:right*/
+ /*display: inline-block;*/
+ background-color: blue;
+}
+#main_content{
+ height: 400px;
+ width: 700px;
+ margin-right: 20px;
+ float: right;
+ background-color: red;
+}
+.subcontents{
+ height: 200px;
+ width: 210px;
+ margin-left: 15px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ display: inline-block;
+ background-color: yellow;
+}
+#advertisement{
+ height: 120px;
+ width: 660px;
+ display: block;
+ margin-left: 15px;
+ margin-top: 10px;
+ background-color: purple;
+}
