@@ -1,0 +1,157 @@
+
+#container{
+    background-color: #E0E0E0;
+    width:1000px;
+    height:1070px;
+    margin: 0px  auto;
+    background: -webkit-linear-gradient(#E0E0E0, white,white, white, white, white, #E0E0E0);*/
+}
+
+h1{
+    float: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+         padding-left: 20px;
+}
+h3{
+    float: right;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+#inner_container{
+    clear: both;
+    width:1000px;
+    height:900px;
+    background: -webkit-radial-gradient(darkgrey, black);
+}
+#main_photo{
+    border-style: solid;
+    border-color: #C0C0C0;
+    margin-top: 20px;
+    display: inline-block;
+    width: 419px;
+    height: 242px;
+    margin-left: 30px;
+}
+
+#content{
+    vertical-align: bottom;
+    background: -webkit-linear-gradient(left, white, #C0C0C0);
+    color: black;
+    display: inline-block;
+    height: 250px;
+    width: 498px;
+    margin-left: 15px;
+    }
+
+h2{
+    background: -webkit-linear-gradient(#A0A0A0, #606060, #A0A0A0);
+    padding:10px;
+    margin:0px;
+
+}
+
+#first_div{
+     width:1000px;
+}
+
+#header{
+    margin:0px;
+    background-color: grey;
+    color:white;
+}
+#main{
+    padding-left: 20px;
+    color:black;
+}
+
+
+.about_me{
+    color:white;
+    display: inline-block;
+}
+
+
+
+/*first block styling*/
+
+.lm_line1{
+    display: inline-block;
+}
+.lm_line2{
+    display: inline-block;
+    font-style: italic;
+    color:black;
+}
+.three_blocks{
+    background: -webkit-linear-gradient(left, white, #C0C0C0);
+    vertical-align: top;
+    color:black;
+    margin-left: 25px;
+    width:300px;
+    height:580px;
+}
+
+#first_block{
+    margin-left: 30px;
+}
+#para1{
+     padding-left: 15px;
+}
+#first_heading1, #first_heading2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin:0px;
+    color:white;
+    background: -webkit-linear-gradient(#A0A0A0, #606060, #A0A0A0);*/
+}
+
+#line1_lamode, #line2_lamode{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+
+.button:link {
+    background-color: teal;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    margin-left: 93px;
+    margin-top: 6px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 2px 2px #c0c0c0;
+    box-shadow: 5px 6px 4px 2px #c0c0c0;
+    border: darkgrey;
+    border-style: groove;
+    border-radius: 9px;
+    border: -1px;
+    border-width: thin;
+
+}
+#second_div{
+    margin-top: 30px;
+}
+.three_blocks{
+    display: inline-block;
+}
+.three_blocks{
+    margin-left: 15px;
+}
+
+#third_div{
+    width:500px;
+    margin: 0px  auto;
+}
+#third_div p{
+    padding-left: 110px;
+    font-size: 18px;
+}
+ ul li{
+    font-size: 22px;
+    list-style-type: none;
+    display: inline-block;
+}
