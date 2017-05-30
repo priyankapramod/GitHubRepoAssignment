@@ -1,0 +1,226 @@
+#container{
+    width:1100px;
+    height:1310px;
+    background-color: black;
+    margin:0 auto;
+}
+#inner_container{
+    line-height: 18px;
+    width: 1086px;
+    height: 1310px;
+    background-color: #1b1a1a;
+    margin: 0 auto;
+}
+#logo{
+    width: 265px;
+    height: 73px;
+    padding: 35px 0px 25px 0px;
+    margin-left: 26px;
+}
+#phn_no{
+    float: right;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding-right: 29px;
+    padding-top: 31px;
+}
+#active{
+    color:white;
+}
+#navigation a{
+    text-decoration: none;
+    color: #A0A0A0;
+    font-size: 13px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding-right: -2px;
+    position: relative;
+    top: 8px;
+}
+#navigation ul{
+    text-decoration: none;
+    background-color: darkgrey;
+    height: 38px;
+    width: 1046px;
+    margin: 0px;
+    padding-top: 15px;
+    background: -webkit-linear-gradient(#404040, #404040, #202020);
+}
+#special_bar{
+    padding-right: 448px;
+    border-right: 2px groove white;
+    height: 135%;
+    position: relative;
+    bottom: 18px;
+}
+#special_bar a {
+    position:relative;
+    top: 18px;
+}
+li #active{
+    color: white;
+    position: relative;
+    right: 18px;
+}
+li {
+    display: inline-block;
+    height: 33px;
+    margin: 4px 0px 0px 5px;
+    position: relative;
+    bottom: 9px;
+    padding-right: 19px;
+    padding-left: 7px;
+    border-right: 2px groove;
+    border-image: linear-gradient(to bottom right, #404040, #606060);
+    border-image-slice: 1;
+}
+#main_pic{
+    display: block;
+    width: 1086px;
+    height: 380px;
+}
+.content, .content_img{
+    /*font-size: 94%;*/
+    display: inline-block;
+    padding-left: 23px;
+}
+#img1, #img2, #img3, #img4{
+    padding-left: 15px;
+    padding-bottom: 45px;
+}
+#img1{
+    width: 57px;
+    height:51px;
+}
+#img2{
+    width: 55px;
+    height:46px;
+}
+#img3{
+    width: 41px;
+    height:45px;
+}
+#img4{
+    width: 55px;
+    height:46px;
+}
+#section{
+    display: block;
+    width: 1086px;
+    height: 150px;
+    padding-top: 21px;
+    border-top: 5px;
+    border-bottom: 0px;
+    border-top-color: #404040;
+    border-right: 0px;
+    border-style: solid;
+    border-left: 0px;
+}
+.heading{
+    color: orange;
+    font-weight: lighter;
+}
+.content p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 84%;
+}
+article a{
+    text-decoration: none;
+    height: 34px;
+    width: 112px;
+    margin-right: 45px;
+    padding: 12px 0px 0px 35px;
+    font-size: larger;
+    font-family: sans-serif;
+    color: white;
+    border-radius: 5px;
+    border-color: #FFB266;
+    background: -webkit-linear-gradient(#FFB266, #FF9933);
+    float: right;
+    position: relative;
+    bottom: 85px;
+    display: inline-block;
+}
+#adv{
+    /*background-color: black;*/
+    background: repeating-linear-gradient( -45deg, #222, #222 6px, #333 2px, #333 8px );
+    border: 1px none white;
+    height: 143px;
+    padding-top: 27px;
+}
+article p{
+    font-family: sans-serif;
+    font-size: 84%;
+    position: relative;
+    bottom: 10px;
+    color: white;
+}
+article h2{
+    font-family: sans-serif;
+    font-size: 159%;
+    font-weight: normal;
+    color: white;
+}
+i {
+    border: solid #A0A0A0;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+}
+.arrow_right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+article h2, article p{
+    padding-left: 31px;
+}
+.portfolio{
+    display: inline-block;
+    color:white;
+}
+#projects{
+    padding-left: 10px;
+}
+.portfolio_header{
+    display: inline-block;
+}
+#image1, #image2, #image3, #image4{
+    width: 230px;
+    height: 135px;
+    margin-left: 20px;
+    border: 4px solid #404040;
+}
+.portfolio h3, .portfolio p{
+    padding-left: 23px;
+    font-weight: lighter;
+}
+.portfolio h3{
+    color:#FF9933;
+}
+.portfolio p{
+    font-family: sans-serif;
+    font-size: 82%;
+}
+#projects header h2{
+    font-weight: lighter;
+    color:white;
+    padding-left: 20px;
+}
+#projects header h4{
+    position: relative;
+    left: 821px;
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: small;
+    color: #FF9933;
+}
+#footer{
+    display: inline-block;
+    position: relative;
+    left: 989px;
+    color: grey;
+    font-family: sans-serif;
+}
