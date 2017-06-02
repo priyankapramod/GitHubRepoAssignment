@@ -1,0 +1,33 @@
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+        
+        function full_name(stu){
+            for(var i = 0; i < stu.length; i++){
+                    tempArr = [];
+                    tempArr.push(Object.values(stu[i])[0]);
+                    tempArr.push(Object.values(stu[i])[1]);
+                    console.log(tempArr[0] + " " + tempArr[1]);
+                    console.log("\n")
+            }
+
+        }
+
+        var students = [
+            {first_name:  'Michael', last_name : 'Jordan'},
+            {first_name : 'John', last_name : 'Rosales'},
+            {first_name : 'Mark', last_name : 'Guillen'},
+            {first_name : 'KB', last_name : 'Tonel'}
+        ]
+            full_name(students);
+
+        </script>
+    </head>
+    <body>
+        <div>TODO write content</div>
+    </body>
+</html>

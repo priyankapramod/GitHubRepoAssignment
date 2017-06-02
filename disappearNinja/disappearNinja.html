@@ -1,0 +1,50 @@
+
+<html>
+    <head>
+        <title>disappear ninja</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="disappearNinja.css">
+        <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+        <script>
+
+            $(document).ready(function(){
+                //click
+                $('img').click(function(){
+                    $(this).hide();
+                    alert(this.id + " will disappear");
+                })
+
+                $('#restore').click(function(){
+                    $('img').show();
+                })
+            })
+
+
+
+
+        </script>
+    </head>
+    <body>
+
+        <div id="container">
+            <h2>jquery Assignment</h2>
+
+            <div id="firstline">
+                <img class="line1"  id="pic1" src="photo.png" alt="some_text"/>
+                <img class="line1"  id="pic2" src="photo.png" alt="some_text"/>
+                <img class="line1"  id="pic3" src="photo.png" alt="some_text"/>
+                <img class="line1"  id="pic4" src="photo.png" alt="some_text"/>
+            </div>
+            <div id="secondline">
+                <img class="line2"  id="pic5" src="photo.png" alt="some_text"/>
+                <img class="line2"  id="pic6" src="photo.png" alt="some_text"/>
+                <img class="line2"  id="pic7" src="photo.png" alt="some_text"/>
+                <img class="line2"  id="pic8" src="photo.png" alt="some_text"/>
+            </div>
+
+            <button id="restore" type="button">Restore</button>
+
+    </div>
+    </body>
+</html>

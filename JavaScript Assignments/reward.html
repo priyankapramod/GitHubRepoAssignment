@@ -1,0 +1,26 @@
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+
+            var reward = 1;
+
+            function bonus(){
+                for(var i = 1; i <= 30; i++){
+                    reward = reward * 2;
+                }
+                reward = reward * 0.01;
+                return reward;
+            }
+
+            var totReward = bonus();
+            console.log(totReward + " is  my total reward in dollars after 30 days ");
+        </script>
+    </head>
+    <body>
+        <div>TODO write content</div>
+    </body>
+</html>

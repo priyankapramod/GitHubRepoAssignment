@@ -1,0 +1,48 @@
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            var daysUntilMyBirthday = 60;
+            var days = daysUntilMyBirthday;
+
+            function birthdayCountDown(days){
+                if(days > 30){
+                    while (days!=30) {
+                        console.log(days + " days until my birthday. Such a long time... :(");
+                        days--;
+                    }
+                    birthdayCountDown(days);
+                }
+                else if ((days <= 30 ) && (days > 5) ) {
+                    while (days!=5) {
+                        console.log(days + " days until my birthday. It's my birthday month");
+                        days--;
+                    }
+                    //console.log(days);
+                    birthdayCountDown(days);
+                }
+                else if ((days <= 5 ) && (days > 0) )  {
+                    while (days!=0) {
+                        console.log(days + " days until my birthday. Can't wait...:):)");
+                        days--;
+                    }
+                    birthdayCountDown(days);
+                }
+                else {
+                    console.log(days + "It's my birthday........Hurray!!!!");
+                }
+            }
+
+            var daysUntilMyBirthday = 60;
+            var days = daysUntilMyBirthday;
+                birthdayCountDown(days);
+
+        </script>
+    </head>
+    <body>
+        <div>TODO write content</div>
+    </body>
+</html>
