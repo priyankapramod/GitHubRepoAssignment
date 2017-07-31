@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Trips</title>
+    <style>
+        #nav a{
+            display:inline-block;
+            margin-right:30px;
+            float :right;
+        }
+        #container{
+            position:relative;
+            top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <section id = "nav">
+        <a id = "bk&review" href="{% url 'bk_review' %}">Add Book and Review</a>
+        <a id = "logout" href="{% url 'logout' %}">Logout</a>
+    </section>
+
+    <section id = container1>
+        Welcome, {{request.session.user_logged_in}}!
+        <h3>All Trip Schedules</h3>
+
+    <!--{%for book in all_books%}-->
+       <!--<ul> Book Title<a id=" title" href = "">{{book.title}}</a></ul>-->
+       <!--<ul> Rating:  {{book.rating}}</ul>-->
+        <!--<ul> Author: {{book.author}}</ul>-->
+        <!--<ul><a id=" bk_user" href = "">{{book.user_of_book.name}}</a>Review: {{book.review}}</ul>-->
+        <!--<ul>Posted at{{book.updated_at}}</ul>-->
+        <!--<hr>-->
+    <!--{%endfor%}-->
+    <!--</section>-->
+
+
+    <!--<section id = container2>-->
+        <!--Other Books with Reviews:-->
+    <!--{%for book in all_books%}-->
+        <!--<ul><a id=" title1" href = "">{{book.title}}</a></ul>-->
+    <!--{%endfor%}-->
+
+    </section>
+
+
+
+
+</body>
+</html>

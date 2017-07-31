@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Plan</title>
+    <style>
+        a{
+            display:inline-block;
+            margin-right:30px;
+            float :right;
+        }
+        #container{
+            position:relative;
+            top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <a id = "home" href="{% url 'home' %}">Home</a>
+    <a id = "logout" href="{% url 'logout' %}">Logout</a>
+
+
+
+    <section id="container">
+        <h2>Add a Trip:</h2>
+
+        <form action ="/addTrip" method="post">
+            {%csrf_token%}
+            {{dest_form.as_p}}
+            {{trip_form.as_p}}
+            <input type="submit" value="Add Trip">
+        </form>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User's page</title>
+    a{
+            display:inline-block;
+            margin-right:30px;
+            float :right;
+    }
+    #container{
+            position:relative;
+            top: 50px;
+    }
+</head>
+<body>
+    <a id = "home" href="{% url 'home' %}">Home</a>
+    <a id = "logout" href="{% url 'logout' %}">Logout</a>
+
+</body>
+</html>
